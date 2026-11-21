@@ -1,0 +1,13 @@
+node_modules/
+.dsh/
+.scratch/
+.probe/
+tests/tmp/
+*.log
+
+# Secrets: never commit these
+.env
+.env.*
+!.env.example
+*.pem
+*.key

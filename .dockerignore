@@ -1,0 +1,18 @@
+# Never send these to the Docker build context.
+.git
+.github
+node_modules
+npm-debug.log*
+.dsh
+.scratch
+*.log
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local test artifacts
+tests/tmp
